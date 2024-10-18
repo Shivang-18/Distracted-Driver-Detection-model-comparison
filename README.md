@@ -1,2 +1,4 @@
 # Distracted-Driver-Detection-model-comparison
-Comparing the performance of 5 CNN models on the State farm dataset 
+The "Distracted Driver Detection: CNN Model Comparison" project aimed to evaluate and compare the performance of various Convolutional Neural Network (CNN) architectures in detecting distracted drivers using the State Farm dataset. This dataset categorizes drivers engaged in different activities into 10 classes. The models tested included ResNet50, VGG16, VGG19, EfficientNet B3, and a custom CNN model. Key metrics such as loss and accuracy were used to assess model performance. Loss and accuracy plots over epochs, along with confusion matrices comparing true and predicted labels, were analyzed.
+
+EfficientNet emerged as the top performer, achieving a testing accuracy of 96%. In contrast, VGG16 exhibited the lowest performance among the models, with an accuracy of 89%. This study provides valuable insights into the effectiveness of different CNN architectures for distracted driver detection, with implications for enhancing road safety through AI-driven monitoring systems.
